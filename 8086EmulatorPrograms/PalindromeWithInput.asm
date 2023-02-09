@@ -21,8 +21,8 @@ code segment
     mov es,ax
                
                
-     lea dx,msg1
      mov ah,09h
+     lea dx,msg1
      int 21h
      
      mov ah,0ah  
